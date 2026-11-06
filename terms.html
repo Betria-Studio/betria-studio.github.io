@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Shippori+Mincho:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Marked.js (MarkdownをHTMLに変換する軽量ライブラリ) -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <style>
+    :root {
+      --bg-color: #f2f2f2;
+      --bg-color-a: #fdfdfd5f;
+      --text-color: #101010;
+      --text-sub: #595959;
+      --accent-gold: #c08b0c;
+      --border-color: rgba(192, 139, 12, 0.2);
+      --font-ja: 'Shippori Mincho', serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font-ja);
+      line-height: 2;
+      letter-spacing: 0.05em;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* --- Header --- */
+    header {
+      padding: 10px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--border-color);
+      position: sticky;
+      top: 0;
+      background: var(--bg-color-a);
+      backdrop-filter: blur(8px);
+      z-index: 100;
+    }
+
+    .logo {
+      font-family: var(--font-ja);
+      font-size: 2.5rem;
+      font-weight: 300;
+      letter-spacing: 0.2em;
+      color: var(--accent-gold);
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+
+    nav a {
+      color: var(--text-sub);
+      text-decoration: none;
+      font-size: 1.25rem;
+      font-family: var(--font-ja);
+      letter-spacing: 0.1em;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: var(--accent-gold);
+    }
+
+    /* --- Main Document Area --- */
+    main {
+      flex: 1;
+      max-width: 800px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 80px 20px;
+    }
+
+    .doc-header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .doc-title {
+      font-family: var(--font-ja);
+      font-size: 2.8rem;
+      font-weight: 300;
+      color: var(--text-color);;
+      letter-spacing: 0.15em;
+      margin-bottom: 15px;
+    }
+
+    .divider {
+      width: 40px;
+      height: 1px;
+      background-color: var(--accent-gold);
+      margin: 0 auto;
+      opacity: 0.7;
+    }
+
+    /* --- Markdown Rendered Styles (高貴なダーク＆ゴールド風に調和) --- */
+    #markdown-content h1,
+    #markdown-content h2,
+    #markdown-content h3 {
+      font-family: var(--font-ja);
+      color: var(--text-color);
+      font-weight: 400;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      letter-spacing: 0.1em;
+    }
+
+    #markdown-content h2 {
+      font-size: 1.6rem;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 8px;
+      color: var(--accent-gold);
+    }
+
+    #markdown-content h3 {
+      font-size: 1.2rem;
+      color: #f0f0f0;
+    }
+
+    #markdown-content p {
+      margin-bottom: 20px;
+      color: var(--text-color);
+      font-size: 0.95rem;
+    }
+
+    #markdown-content ul, #markdown-content ol {
+      margin-bottom: 20px;
+      padding-left: 25px;
+      color: var(--text-color);
+    }
+
+    #markdown-content li {
+      margin-bottom: 8px;
+      font-size: 0.95rem;
+    }
+
+    #markdown-content a {
+      color: var(--accent-gold);
+      text-decoration: none;
+      border-bottom: 1px dashed var(--accent-gold);
+    }
+
+    #markdown-content a:hover {
+      opacity: 0.8;
+    }
+
+    #markdown-content hr {
+      border-color: var(--border-color);
+    }
+
+    .loading, .error {
+      text-align: center;
+      color: var(--text-sub);
+      font-style: italic;
+      padding: 40px 0;
+    }
+
+    /* --- Footer --- */
+    footer {
+      padding: 30px;
+      text-align: center;
+      font-size: 0.75rem;
+      color: var(--text-sub);
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      letter-spacing: 0.1em;
+      font-family: var(--font-ja);
+    }
+  </style>
+
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="logo">Betria</a>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="terms.html">Terms</a></li>
+      <li><a href="privacy.html">Privacy</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <div class="doc-header">
+    <h1 class="doc-title" id="page-title">Terms & Conditions</h1>
+    <div class="divider" style="margin-top: 20px;"></div>
+    <p>
+      本ページは、GitHubリポジトリにて公開されている内容が原本であり、本ページは閲覧性の恒常、及び容易化を目的とした写しです。<br>
+      必要な場合はGitHubリポジトリをご覧ください。<br>
+      <a href="https://github.com/Betria-Studio/BetriaProject-Terms" target="_blank">GitHubリポジトリへ移動</a>
+    </p>
+  </div>
+
+
+  <div id="repository-info">
+  </div>
+
+  <!-- 外部Markdownがここに読み込まれ、HTMLに変換されて表示されます -->
+  <div id="markdown-content">
+    <div class="loading">Loading document from repository...</div>
+  </div>
+</main>
+
+<footer>
+  &copy; Best / Betria Project. All Rights Reserved.
+</footer>
+
+<script>
+  // 【設定】取得元のGitHubリポジトリ情報を指定してください
+  const GITHUB_USER = 'Betria-Studio'; // GitHubユーザー名
+  const REPO_NAME = 'BetriaProject-Terms'; // 規約を置いている別リポジトリ名
+  const FILE_PATH = 'BetriaProject-terms.md'; // 読み込むファイル名
+
+  async function loadMarkdown() {
+    const repoInfo = document.getElementById('repository-info');
+    const content = document.getElementById('markdown-content');
+    try {
+      // 1. タグリストを取得
+      const tagsRes = await fetch(`https://api.github.com/repos/${GITHUB_USER}/${REPO_NAME}/tags`);
+
+      let targetRef = null; // フォールバックは行わず、初期値はnullとする
+
+      if (tagsRes.ok) {
+        const tags = await tagsRes.json();
+        if (tags.length > 0) {
+          // 【要件】必ず "v" で始まり、v[0-9]+\.[0-9]+\.[0-9]+ の形式に完全に一致するものだけを抽出
+          const semverTags = tags
+                  .map(t => t.name)
+                  .filter(name => /^v[0-9]+\.[0-9]+\.[0-9]+$/.test(name));
+
+          if (semverTags.length > 0) {
+            // バージョン番号を数値として比較し、一番新しい（大きい）ものを決定する
+            semverTags.sort((a, b) => {
+              const parseVer = str => str.replace(/^v/, '').split('.').map(Number);
+              const [aMaj, aMin, aPat] = parseVer(a);
+              const [bMaj, bMin, bPat] = parseVer(b);
+              if (aMaj !== bMaj) return bMaj - aMaj; // メジャー比較
+              if (aMin !== bMin) return bMin - aMin; // マイナー比較
+              return bPat - aPat;                    // パッチ比較
+            });
+            targetRef = semverTags[0]; // 一番新しいバージョンのタグ
+          }
+        }
+      }
+
+      // 有効な vX.Y.Z タグが見つからない場合は処理を中断してエラー表示
+      if (!targetRef) {
+        repoInfo.innerHTML = `<p><strong>ERROR: </strong>有効なバージョンタグ（v1.0.0形式）が見つかりませんでした。</p>`;
+        content.innerHTML = ``;
+      } else {
+        // 2. 確定した最新の vタグのRawコンテンツURLからMarkdownを取得
+        const rawUrl = `https://raw.githubusercontent.com/${GITHUB_USER}/${REPO_NAME}/${targetRef}/${FILE_PATH}`;
+        const res = await fetch(rawUrl);
+
+        if (!res.ok) throw new Error('Markdownファイルの取得に失敗しました。');
+
+        const markdownText = await res.text();
+
+        // 3. Marked.jsでHTMLに変換して流し込む
+        content.innerHTML = marked.parse(markdownText);
+
+        repoInfo.innerHTML = `<p><strong>Repository:</strong> ${GITHUB_USER}/${REPO_NAME}</p><p><strong>Version:</strong> ${targetRef}</p><p><strong>File:</strong> ${FILE_PATH}</p>`;
+      }
+
+    } catch (err) {
+      console.error(err);
+      repoInfo.innerHTML = `<div class="error">規約データの読み込みに失敗しました。リポジトリの公開設定やファイルパスをご確認ください。</div>`;
+    }
+  }
+
+  loadMarkdown();
+</script>
+
+</body>
+</html>

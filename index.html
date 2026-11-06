@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms & Policies | Betria</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Shippori+Mincho:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Marked.js (MarkdownをHTMLに変換する軽量ライブラリ) -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <style>
+        :root {
+            --bg-color: #f2f2f2;
+            --bg-color-a: #fdfdfd5f;
+            --text-color: #101010;
+            --text-sub: #595959;
+            --accent-gold: #c08b0c;
+            --border-color: rgba(192, 139, 12, 0.2);
+            --font-ja: 'Shippori Mincho', serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: var(--font-ja);
+            line-height: 2;
+            letter-spacing: 0.05em;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* --- Header --- */
+        header {
+            padding: 10px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            background: var(--bg-color-a);
+            backdrop-filter: blur(8px);
+            z-index: 100;
+        }
+
+        .logo {
+            font-family: var(--font-ja);
+            font-size: 2.5rem;
+            font-weight: 300;
+            letter-spacing: 0.2em;
+            color: var(--accent-gold);
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        nav a {
+            color: var(--text-sub);
+            text-decoration: none;
+            font-size: 1.25rem;
+            font-family: var(--font-ja);
+            letter-spacing: 0.1em;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: var(--accent-gold);
+        }
+
+        /* --- Main Document Area --- */
+        main {
+            flex: 1;
+            max-width: 800px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 80px 20px;
+        }
+
+        .doc-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .doc-title {
+            font-family: var(--font-ja);
+            font-size: 2.8rem;
+            font-weight: 300;
+            color: var(--text-color);
+            letter-spacing: 0.15em;
+            margin-bottom: 15px;
+        }
+
+        .doc-content {
+            text-align: center;
+            font-family: var(--font-ja);
+            font-size: 1rem;
+            font-weight: 300;
+            color: var(--text-color);
+        }
+
+        .divider {
+            width: 40px;
+            height: 1px;
+            background-color: var(--accent-gold);
+            margin: 0 auto;
+            opacity: 0.7;
+        }
+
+        /* --- Footer --- */
+        footer {
+            padding: 30px;
+            text-align: center;
+            font-size: 0.75rem;
+            color: var(--text-sub);
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            letter-spacing: 0.1em;
+            font-family: var(--font-ja);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="logo">Betria</a>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="terms.html">Terms</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class="doc-header">
+        <h1 class="doc-title" id="page-title">Betria</h1>
+        <div class="divider" style="margin-top: 20px;"></div>
+        <p>
+            BetriaProjectのメインサイトです。<br>
+            現在BetriaProjectの規約のみを公開しています。
+        </p>
+    </div>
+
+    <div class="doc-content">
+
+    </div>
+
+</main>
+
+<footer>
+    &copy; Best / Betria Project. All Rights Reserved.
+</footer>
+
+</body>
+</html>

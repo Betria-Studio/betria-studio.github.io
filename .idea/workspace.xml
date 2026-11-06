@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ea4e9e8b-8600-419d-a2db-c28cd5e77187" name="変更" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/privacy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terms.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/Best/MyScript/Web/GitHubPages/betria-studio.github.io" value="3LQJjYBBUOKErrjTChlII77Rj8S" />
+      <entry key="_D:/Betria-Project/WebPage/betria-studio.github.io" value="3LhLjQG8VBuLz7omGjfOiEHuMST" />
+    </persistenceIdMap>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000027270721" />
+      <entry key="S2" value="1.007226435918319" />
+      <entry key="S5" value="1.139200041445648" />
+      <entry key="S10" value="1.3863193615730858" />
+      <entry key="S30" value="2.9353795226665547" />
+      <entry key="S60" value="6.156079655124804" />
+      <entry key="M2" value="10.350254662902802" />
+      <entry key="M5" value="14.873845927101492" />
+      <entry key="M10" value="19.490900141449345" />
+      <entry key="M15" value="25.85031995265076" />
+      <entry key="M30" value="44.414881131482275" />
+      <entry key="H1" value="65.36013645875839" />
+      <entry key="H2" value="81.59581285685799" />
+      <entry key="H4" value="95.12919736663494" />
+      <entry key="D1" value="148.37056958649475" />
+      <entry key="W1" value="176.14729334080897" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.7916070676619935E-66" />
+      <entry key="S2" value="3.658564295823134E-17" />
+      <entry key="S5" value="2.6627124977726093E-7" />
+      <entry key="S10" value="5.160147767043702E-4" />
+      <entry key="S30" value="0.08020855877135794" />
+      <entry key="S60" value="0.28321115580631917" />
+      <entry key="M2" value="0.5321807658360045" />
+      <entry key="M5" value="0.8088729938584084" />
+      <entry key="M10" value="1.547657715669122" />
+      <entry key="M15" value="2.8043513123231345" />
+      <entry key="M30" value="6.391317584856101" />
+      <entry key="H1" value="10.275026287555441" />
+      <entry key="H2" value="13.190079974645075" />
+      <entry key="H4" value="15.24121967066127" />
+      <entry key="D1" value="20.23987001807586" />
+      <entry key="W1" value="22.525396613321274" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.42631744588397835" />
+      <entry key="MS500" value="0.8432311125401207" />
+      <entry key="S2" value="0.9651849316566171" />
+      <entry key="S5" value="1.1198827989116298" />
+      <entry key="S10" value="1.3747996958663737" />
+      <entry key="S30" value="2.993875391094085" />
+      <entry key="S60" value="6.399586364242695" />
+      <entry key="M2" value="10.840388001745657" />
+      <entry key="M5" value="15.655350714113814" />
+      <entry key="M10" value="21.019194081882294" />
+      <entry key="M15" value="28.636934814327564" />
+      <entry key="M30" value="50.790720486479174" />
+      <entry key="H1" value="75.62382601954025" />
+      <entry key="H2" value="94.77884104253343" />
+      <entry key="H4" value="110.36623328436578" />
+      <entry key="D1" value="168.60919855389002" />
+      <entry key="W1" value="198.67247066307522" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="3LQJjONzPGjgDt6XzfoQW55AmbU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="ensembleEnabled" value="false" />
+        <option name="modeId" value="Agent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="BACKGROUND" />
+        <option name="worktreeMode" value="WORKSPACE" />
+      </template>
+    </option>
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Betria-Project/WebPage/betria-studio.github.io",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Betria-Project\WebPage\betria-studio.github.io" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="betria-studio.github.io" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="betria-studio.github.io" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="betria-studio.github.io" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="betria-studio.github.io" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="デフォルトタスク">
+      <changelist id="ea4e9e8b-8600-419d-a2db-c28cd5e77187" name="変更" comment="" />
+      <created>1793380493400</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1793380493400</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
